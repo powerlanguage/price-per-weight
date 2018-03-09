@@ -1,0 +1,44 @@
+.App {
+  margin-top: 2em;
+}
+
+h1 {
+  text-align: center;
+}
+
+fieldset {
+  text-align: center;
+  border: none;
+}
+
+legend {
+  margin-bottom: 0.4em;
+  letter-spacing: 0.1em;
+}
+
+input[type=number] {
+  color: #888;
+  line-height: 1.7em;
+  font-size: 2em;
+  width: 4em;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 0.2em;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.priceInput {
+  display: inline-block;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  font-size: 1em;
+}
